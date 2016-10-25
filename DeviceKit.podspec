@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'DeviceKit'
-  s.version      = '0.3.5'
+  # this weird version number is here to make it clear that there aren't updates for this version. This is a clone of the last supported version for this pod on swift 2.3
+  s.version      = '9.9.9'
   s.summary      = 'DeviceKit is a µ-framework that provides a value-type replacement of UIDevice.'
 
   s.description             = <<-DESC
